@@ -1,0 +1,44 @@
+# Ignore database files
+db.sqlite3
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific settings
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignore IDE-specific files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Ignore logs
+*.log
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore secret keys and sensitive information
+*.secret
+
+# Ignore migration files as they are specific to each environment
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore any other generated files or directories
+*.DS_Store
+*.bak
+sftp-config.json
